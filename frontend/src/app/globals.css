@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+* {
+  /* font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: var(--font-poppins);
+}
+
+.auth{
+  @apply flex flex-col gap-3 w-full
+}
+
+.auth input{
+  @apply  w-full rounded-md  bg-gray-100 p-4 focus:outline-none
+}
+
+.auth button{
+  @apply p-5 bg-c1 w-full rounded-md text-white
+}
+
+.ts{
+  text-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+
+.cs{
+  box-shadow: 0 10px 30px #88B6DE;
+}
